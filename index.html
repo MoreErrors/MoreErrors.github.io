@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/FontAwesome/all.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="animations.js"></script>
+    <title>Michelle Brachwitz Portfolio</title>
+</head>
+<body>
+    <!--Navbar-->
+    <div class="p-4 navbar">
+        <div class="container mx-auto text-center">
+            <i id="navbutton" class="clickable fas fa-bars fa-2x"></i>
+        </div>
+    </div>
+
+    <div id="navmenu" class="navmenu h-full w-full colorIntro flex flex-wrap content-center text-center">
+        <div class="grid divide-y m-auto pt-2 lg:pt-36">
+            <div id="navitem"><a href="#CargobikeBlock" class="hover:underline"><h1 id="navto1" class="text-4xl p-6" name='cbd'>Cargodelivery Service</h1></a></div>
+            <div id="navitem"><a href="#POTPBlock" class="hover:underline"><h1 id="navto2" class="text-4xl p-6" name='potp'>Proof of the Pudding</h1></a></div>
+            <div id="navitem"><a href="#DTMMBLOCK" class="hover:underline"><h1 id="navto3" class="text-4xl p-6" name='dtmm'>Double Trouble: Mosquito Menace</h1></a></div>
+            <div id="navitem"><a href="#WPTDBLOCK" class="hover:underline"><h1 id="navto4" class="text-4xl p-6" name='wptd'>Wordpress Thema Development</h1></a></div>
+            <div id="navitem"><a href="#AboutMe" class="hover:underline"><h1 id="navto5" class="text-4xl p-6" name='overmij'>Over mij</h1></a></div>
+            <div id="navitem"><a href="#" class="hover:underline"><h1 id="navto6" class="text-4xl p-6" name='contact'>Contact</h1></a></div>
+            <div id="navitem"><i id="navclose" class="pt-8 fa-3x far fa-window-close clickable"></i> </div>
+        </div>
+    </div>
+
+    <!-- SITE CONTENTS <img src="./ima  ges/logo.png" class="rotatelogo">-->
+    <section id="WelcomeBlock" class="scroller pb-96">
+        <div class="container flex justify-center pt-36 mx-auto h-screen" id="Splash">
+        </div>
+    </section>
+
+    <div class="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 h-full">
+        <div class="lg:col-span-1 md:col-span-2 sm:col-span-2 flex flex-wrap content-center">
+            <div id="TOCTitle" class="colorIntro border-solid border-4 border-white rounded-lg p-12 md:block">
+                <h1 class="text-6xl">Mijn werk</h1>
+            </div>   
+        </div>
+        <div id="TOCItemsBG" class="lg:col-span-1 md:col-span-2 sm:col-span-2 colorIntro p-12 flex flex-wrap content-center">
+            <div class="grid divide-y">
+                <div id="TOCItems"><a href="#CargobikeBlock" class="hover:underline"><h1 class="text-4xl p-6">Cargodelivery Service</h1></a></div>
+                <div id="TOCItems"><a href="#POTPBlock" class="hover:underline"><h1 class="text-4xl p-6">Proof of the Pudding</h1></a></div>
+                <div id="TOCItems"><a href="#DTMMBLOCK" class="hover:underline"><h1 class="text-4xl p-6">Double Trouble: Mosquito Menace</h1></a></div>
+                <div id="TOCItems"><a href="#WPTDBLOCK" class="hover:underline"><h1 class="text-4xl p-6">Wordpress Thema Development</h1></a></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- CARGOBIKE INTRO -->
+    <div id="CargobikeBlock" class="colorIntro h-full flex flex-wrap content-center justify-center">
+        <h1 class="text-9xl">
+            <h1 class="text-6xl pt-24 underline margin-auto" >Cargodelivery Service</h1>
+        </h1>
+    </div>
+    <div class="colorIntro">
+        <img src="./images/PCargobikeBG.jpg">
+    </div>
+    <!--CARGOBIKE DELIVERY SERVICE -->
+    <section id="PortfolioItem">
+        <div class="grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1">
+            <div id="Port1BG" class="lg:col-span-1 md:col-span-3 sm:col-span-3 colorIntro text-gray-100 p-12">
+                <h1 id="Port1Text" class="text-6xl pt-24 underline text-center" >Cargodelivery Service</h1>
+                <div id="Port1Text" class="PortText">
+                    <p class="pl-4 pt-8 text-2xl PortText">
+                        Cargodelivery Service - Huur een bezorger om bezorgingen voor je uit te voeren of huur een hele cargobike tegen een maandelijkse prijs. 
+                    </p>
+                    <p class="pl-4 pt-8 text-2xl PortText">
+                        Indien de cargobike kapot gaat, gaan lokale fietsenmakers het voertuig repareren. Projectgroep 'Firma' heeft een applicatie ontwikkeld met gebruikersomgevingen voor ondernemers, bezorgers en monteurs. 
+                    </p>
+                    <p class="pl-4 pt-8 text-2xl PortText">
+                        Houdt bestellingen bij in zowel je agenda als met een Track 'n Trace, rapporteer en traceer kapotte cargobikes en garandeer je klanten same-day-delivery!
+                    </p>
+                </div>  
+                
+                <p id="Port1Text" class="pl-4 italic pt-48 text-2xl text-center">
+                    React.js, Material-UI, Firebase, Bootstrap, Google Maps API
+                </p>
+                <p id="Port1Text" class="pl-4 italic pt-24 text-2xl text-center">
+                    Deskresearch, UI Design, UX Design, Front-End, Back-End 
+                </p>
+            </div>
+            <div class="lg:col-span-2 md:col-span-3 sm:col-span-3  flex flex-wrap">
+                <img id="Port1Img" src="images/1.jpg" alt="Cargobike Delivery Service Image 1" class="w-1/3 portImg">
+                <img id="Port1Img" src="images/2.jpg" alt="Cargobike Delivery Service Image 2" class="w-1/3 portImg">
+                <img id="Port1Img" src="images/3.jpg" alt="Cargobike Delivery Service Image 3" class="w-1/3 portImg">
+                <img id="Port1Img" src="images/4.jpg" alt="Cargobike Delivery Service Image 4" class="w-1/3 portImg">
+                <img id="Port1Img" src="images/5.jpg" alt="Cargobike Delivery Service Image 5" class="w-1/3 portImg">
+                <img id="Port1Img" src="images/6.jpg" alt="Cargobike Delivery Service Image 6" class="w-1/3 portImg">
+            </div>
+        </div>
+    </section>
+
+    <!-- POTP INTRO -->
+    <div id="POTPBlock" class="colorIntro h-full flex flex-wrap content-center justify-center">
+        <h1 class="text-9xl">
+            <h1 class="text-6xl pt-24 underline margin-auto" >Proof of the Pudding</h1>
+        </h1>
+    </div>
+    <div class="">
+        <img id="CbImage" src="./images/PPotpBG.jpg">
+    </div>
+    <!--PROOF OF THE PUDDING -->
+    <section id="PortfolioItem2">
+        <div id="Port2BG" class="grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1">
+            <div class="lg:col-span-2 md:col-span-3 sm:col-span-3 lg:order-first order-last flex flex-wrap">
+                <img id="Port2Img" src="images/13.jpg" alt="Cargobike Delivery Service Image 1" class="w-1/3 portImg">
+                <img id="Port2Img" src="images/8.jpg" alt="Cargobike Delivery Service Image 2" class="w-1/3 portImg">
+                <img id="Port2Img" src="images/9.jpg" alt="Cargobike Delivery Service Image 3" class="w-1/3 portImg">
+                <img id="Port2Img" src="images/10.jpg" alt="Cargobike Delivery Service Image 4" class="w-1/3 portImg">
+                <img id="Port2Img" src="images/11.jpg" alt="Cargobike Delivery Service Image 5" class="w-1/3 portImg">
+                <img id="Port2Img" src="images/12.jpg" alt="Cargobike Delivery Service Image 6" class="w-1/3 portImg">
+            </div>
+            <div id="Port2BG" class="lg:col-span-1 md:col-span-1 sm:col-span-1 lg:order-last order-first colorIntro text-gray-100 p-12">
+                <h1 id="Port2Text" class="text-6xl pt-24 underline text-center" >Proof of the Pudding</h1>
+                <div id="Port2Text" class="PortText">
+                    <p class="pl-4 pt-8 text-2xl PortText">
+                        Iedereen heeft zo zijn of haar eigen voorkeuren voor de ingrediënten op hun brood of in hun soep.
+                    </p>
+                    <p class="pl-4 pt-8 text-2xl PortText">
+                        Proof of the Pudding - het platform om je brood mee op de plank te krijgen! Waar eet je graag mosterd bij? Wat voor brood is het lekkerste bij dat ene beleg? 
+                    </p>
+                    <p class="pl-4 pt-8 text-2xl PortText">
+                        In ruil voor jouw mening delen we graag voedselpakketjes om te snacken of lekker mee te koken.
+                    </p>
+                </div>  
+                
+                <p class="pl-4 italic pt-48 text-2xl text-center">
+                    Laravel, Bootstrap
+                </p>
+                <p class="pl-4 italic pt-24 text-2xl text-center">
+                    Deskresearch, Interview Focusgroep, UI Design, UX Design, Front-End, Back-End 
+                </p>
+            </div>
+        </div>
+    </section>        
+
+    <!-- DTMM INTRO -->
+    <div id="DTMMBLOCK" class="colorIntro h-full flex flex-wrap content-center justify-center">
+        <h1 class="text-6xl pt-24 underline margin-auto" >Double Trouble Mosquito Menace</h1>
+    </div>
+    <div class="colorIntro">
+        <img id="CbImage" src="./images/DTMMBG.jpg">
+    </div>
+    <!--Double Trouble Mosquito Menace -->
+    <section id="PortfolioItem">
+        <div class="grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1">
+            <div id="Port3BG" class="lg:col-span-1 sm:col-span-3 colorIntro text-gray-100 p-12">
+                <h1 id="Port3Text" class="text-6xl pt-24 underline text-center" >Double Trouble Mosquito Menace </h1>
+                <div id="Port3Text" class="PortText">
+                    <p class="pl-4 pt-8 text-2xl PortText">
+                        Een spannend spel waarbij kinderen in Indonesië leren over de gevaren van de malariamug en de verschillende manieren om zich te beschermen.
+                    </p>
+                    <p class="pl-4 pt-8 text-2xl PortText">
+                        Ons hoofdpersoon treft een lege school aan, want alle kinderen liggen ziek thuis met knokkelkoorts. Met behulp van o.a. muggenspray en een hoop goede moed, zal onze held(in) het dorp beschermen van de muggenplaag. Dit gebeurt niet ongezien, want sterke malaria-bazen zullen haar proberen tegen te houden!
+                    </p>
+                    <p class="pl-4 pt-8 text-2xl PortText">
+                        Versla muggen, ontwijk obstakels en bescherm je schoolvrienden en mede-dorpelingen!
+                    </p>
+                </div>  
+                
+                <p id="Port3Text" class="pl-4 italic pt-48 text-2xl text-center">
+                    Unity, Photoshop, Deskresearch, Adobe Animate, Adobe Premier, playtests
+                </p>
+                <p id="Port1Text" class="pl-4 italic pt-24 text-2xl text-center">
+                    UI Design, Art assets, Deskresearch
+                </p>
+            </div>
+            <div class="lg:col-span-2 md:col-span-3 sm:col-span-3 flex flex-wrap">
+                <img id="Port3Img" src="images/14Collage.jpg" alt="Cargobike Delivery Service Image 1" class="w-max portImg">
+            </div>
+        </div>
+    </section>
+
+    <!-- WPTD INTRO -->
+    <div id="WPTDBLOCK" class="colorIntro h-full flex flex-wrap content-center justify-center">
+        <h1 class="text-6xl pt-24 underline margin-auto" >Wordpress Thema Development</h1>
+    </div>
+    <div class="colorIntro">
+        <img id="CbImage" src="./images/WPTDBG.jpg">
+    </div>
+    <!--Wordpress -->
+    <section id="PortfolioItem2">
+        <div id="Port4BG" class="grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1">
+            <div class="lg:col-span-2 md:col-span-1 sm:col-span-1  lg:order-first order-last flex flex-wrap">
+                <img id="Port4Img" src="images/15.jpg" alt="Cargobike Delivery Service Image 1" class="w-1/3 portImg">
+                <img id="Port4Img" src="images/18.jpg" alt="Cargobike Delivery Service Image 2" class="w-1/3 portImg">
+                <img id="Port4Img" src="images/17.jpg" alt="Cargobike Delivery Service Image 3" class="w-1/3 portImg">
+                <img id="Port4Img" src="images/19.jpg" alt="Cargobike Delivery Service Image 5" class="w-max portImg">
+            </div>
+            <div id="Port4BG" class="lg:col-span-1 md:col-span-1 sm:col-span-1 colorIntro text-gray-100 p-12 lg:order-last order-first">
+                <h1 id="Port4Text" class="text-6xl pt-24 underline text-center" >Wordpress Thema ontwikkeling</h1>
+                <div id="Port4Text" class="PortText">
+                    <p class="pl-4 pt-8 text-2xl PortText">
+                        Iedereen heeft zo zijn of haar eigen voorkeuren voor de ingrediënten op hun brood of in hun soep.
+                    </p>
+                    <p class="pl-4 pt-8 text-2xl PortText">
+                        Proof of the Pudding - het platform om je brood mee op de plank te krijgen! Waar eet je graag mosterd bij? Wat voor brood is het lekkerste bij dat ene beleg? 
+                    </p>
+                    <p class="pl-4 pt-8 text-2xl PortText">
+                        In ruil voor jouw mening delen we graag voedselpakketjes om te snacken of lekker mee te koken.
+                    </p>
+                </div>  
+                
+                <p class="pl-4 italic pt-48 text-2xl text-center">
+                    PHP, Bulma, SASS
+                </p>
+                <p class="pl-4 italic pt-24 text-2xl text-center">
+                    UI Design, Front-End Development, Back-end Development 
+                </p>
+            </div>
+        </div>
+    </section>   
+
+    <!-- ABOUT ME -->
+    <section id="AboutMe" class="h-2/3">
+        <div class="grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 colorIntro pt-48"> 
+            <div class="lg:col-span-2 md:col-span-3 sm:col-span-3 lg:order-first sm:order-last p-12">
+                <p class="pl-4 pt-12 text-4xl pt-6 PortText font-bold underline">
+                    Verdere vaardigheden
+                </p>
+                <p class="pl-4 pt-8 text-2xl PortText">
+                    PHP, HTML/CSS, GSAP, Javascript, SQL, Firebase, React.js, Bootstrap, Bulma, Tailwind, Node/NPM
+                </p>
+                <p class="pl-4 pt-12 text-3xl pt-6 PortText font-bold">
+                    Andere persoonlijke projecten
+                </p>
+                <p class="pl-8 pt-4 text-2xl PortText">
+                    - Toetsapplicatie, "Michelle, kan je een betere toetsapplicatie maken?" - React.js, Firebase, HTML/CSS, Material-UI
+                </p>
+                <p class="pl-8 pt-4 text-2xl PortText">
+                    - Boodschappen applicatie, "Welke supermarkt is het goedkoopst voor dit product?" - Puppeteer, HTML/CSS, javascript
+                </p>
+                <p class="pl-8 pt-4 text-2xl PortText">
+                    - Kastenpasser, "Past mijn receiver in de tv-meubel?" - THREE.js, TWEEN.js, Tailwind
+                </p>
+                <p class="pl-8 pt-4 text-2xl PortText">
+                    - Portfolio Site 2.0, "Beter dan 1.0" - Tailwind, Ruby on Rails
+                </p>
+                <p class="pl-4 pt-12 pb-6 text-4xl pt-6 PortText underline font-bold">
+                    Contact
+                </p>
+                <a class="pl-8" href="mailto:m.l.brachwitz@hanze.nl"><i class="far fa-envelope fa-6x"></i></a>
+            </div>
+            <div class="lg:col-span-1 md:col-span-3 sm:col-span-3 lg:order-first sm:order-last p-12">
+                <img src="./images/me.png" class="m-auto">
+                <h1 class="pl-4 text-5xl underline PortText pt-12 align-self-center font-bold">Over mij</h1>
+                <p class="pl-4 pt-8 text-2xl PortText">
+                    Ik ben vierdejaars studente Interaction Design aan de Hanzehogeschool en wil een fullstack developer worden. 
+                </p>
+                <p class="pl-4 pt-8 text-2xl PortText">
+                    Ik vind front-end en back-end development ontzettend leuk, omdat er zoveel te leren is. Telkens dat ik mij erin verdiep, leer ik iets dat ik weer toe kan passen in andere projecten.
+                </p>
+                <p class="pl-4 pt-8 text-2xl PortText">
+                    Webdevelopment vind ik ontzettend fijn om te doen vanwege de vele toepassingen. Als ik mensen ermee kan helpen - dan help ik! En met een webapplicatie kan ik heel veel mensen in 1x helpen!
+                </p>               
+                <p class="pl-4 pt-12 text-3xl pt-6 PortText font-bold">
+                    Hobby's
+                </p>
+                <p class="pl-4 text-2xl PortText">
+                    Tekenen, Pixelart, Sculpten en Modelleren in Blender, Gamen, Kaartspellen
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./app.js" type="module"></script>
+</body>
+</html>

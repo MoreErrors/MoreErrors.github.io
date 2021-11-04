@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/FontAwesome/all.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="scrollanim.js"></script>
+    <title>3D GLTFLoader</title>
+</head>
+<body>
+    <!-- 3D -->
+    <div class="scene"></div>
+
+    <div class="wrapper">
+        <!--Navbar-->
+            <div class="container p-6 w-2/3 flex justify-between mx-auto" id="Landing">
+                <div class=""> 
+                    <i class="fas fa-bars text-gray-100"></i>
+                </div>
+                <div class="">
+                    <h1 class="text-gray-300 italic"> <i class="fas fa-circle"></i> <i class="far fa-circle"></i>  Landing </h1>
+                </div>
+            </div>
+
+        <!-- SITE CONTENTS -->
+
+            <div class="container flex justify-center pt-36 mx-auto h-screen">
+                <button class=" rounded-full text-gray-100 box-border h-64 w-64 p-2 border-4 text-3xl" onclick="NavigationScroll()"> Ik  op een webpagina... </button>
+            </div>
+            
+            <!-- PORTFOLIO -->
+            <section class="font-sans content container bg-gray-700 text-gray-100 p-16 sm: w-full sm:h-3/5 md:h-screen md:w-3/5" id="Portfolio">
+                    <h1 class="text-4xl underline">Cargobike Delivery Service</h1>
+                    <p class="p-4 italic">React.js, Material-UI, Firebase, Bootstrap</p>
+                    <p class="p-6 font-bold">
+                        De binnenstad van Groningen wordt in 2025 een zero-emissie zone; geen CO2 uitstotende voertuigen meer toegestaan.
+                        En daarmee zijn we dan ook van die luidruchtige, vervuilende en blokkerende bestelbusjes af. Nu de binnenwegen meer ademruimte hebben, kan Cargobike Delivery Service  eindelijk aantreden als HET alternatief.
+                    </p>
+                    <p class="p-6">
+                        Same-day delivery, milieubewust, toegankelijk en flexibel zijn de doelen van Cargobike Delivery Service. 
+                    </p>
+                    <p class="italic p-6">
+                        Deskresearch, UI Design, UX Design, Google Maps API, Front-End, Back-End 
+                    </p>
+            </section>
+
+            <!-- ABOUT ME -->
+            <section class="font-sans content container bg-gray-700 text-gray-100 p-16 sm: w-full sm:h-3/5 md:h-screen md:w-3/5" id="Portfolio">
+                <h1 class="text-4xl underline">Over mij</h1>
+                <p class="p-4 italic">Michelle Brachwitz, Interaction Design, Hanzehogeschool</p>
+                <p class="p-6 font-bold">
+                    Fullstack developer - daar ga ik voor.
+                </p>
+                <p class="p-3">
+                    HTML, CSS, Javascript, PHP, Python, Ruby,
+                    Bootstrap, Bulma, Material-UI, Tailwind
+                    React.js, Ruby on Rails, (Django, Laravel)
+                    MySQL, Firebase, Github, Node, 
+                    Photoshop, Axure, AdobeXD, Blender
+                </p>
+                <p class="italic p-6">
+                    Deskresearch, UI Design, UX Design, Google Maps API, Front-End, Back-End 
+                </p>
+            </section>
+
+            <section class="content Skillsection container p-12">
+                <h1>It's so huge it should be illegal</h1>
+                <p>I really don't like big booties</p>
+            </section>
+
+            <section class="content AboutMe container p-12">
+                <h1>My butt</h1>
+                <p>Irem lorem dolorum who knows what the text means</p>
+            </section>
+    </div>
+
+    <script src="./app.js" type="module"></script>
+</body>
+</html>
